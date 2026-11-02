@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "muthuom-cvalgo_jd282"
+name = "muthuom-attention_kernel_bandwidth_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://muthuom.github.io"
-Repository = "https://github.com/muthuom/cvalgo_jd282"
-Issues = "https://github.com/muthuom/cvalgo_jd282/issues"
+Repository = "https://github.com/muthuom/attention_kernel_bandwidth_budget_alloc"
+Issues = "https://github.com/muthuom/attention_kernel_bandwidth_budget_alloc/issues"
 
 [project.scripts]
-cvalgo_jd282 = "cvalgo_jd282:main"
+attention_kernel_bandwidth_budget_alloc = "attention_kernel_bandwidth_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["cvalgo_jd282"]
+py-modules = ["attention_kernel_bandwidth_budget_alloc"]
